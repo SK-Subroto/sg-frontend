@@ -5,7 +5,7 @@ That is frontend code. Technology use: React, TailwinsCss etc.
 
 ```
 npm install
-npm start run-dev
+npm start
 ```
 
 ## Live Link:
