@@ -15,6 +15,16 @@ module.exports = {
         }
       }
     },
+    // screens: {
+    //   'sm': '576px',
+    //   // => @media (min-width: 576px) { ... }
+
+    //   'md': '768px',
+    //   // => @media (min-width: 960px) { ... }
+
+    //   'lg': '992px',
+    //   // => @media (min-width: 1440px) { ... }
+    // },
   },
   plugins: [],
 }
