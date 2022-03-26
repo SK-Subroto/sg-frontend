@@ -41,8 +41,8 @@ const Footer = () => {
                     <h3 className='text-xl font-bold'>Stay in the loop</h3>
                     <p className='text-sm text-gray-400 py-6'>Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating NFTs.</p>
                     <div className='relative'>
-                        <input className='lg:w-5/6 w-full rounded-full border-2 border-gray-200 text-sm px-6 py-4' type="email" placeholder='Enter your email address' />
-                        <button type='button' className='absolute lg:right-20 bottom-1 right-1 mt-2 rounded-full bg-blue-700 text-white px-4 py-3 text-center hover:bg-indigo-700'>Subscribe Now</button>
+                        <input className='w-full rounded-full border-2 border-gray-200 text-sm px-6 py-4' type="email" placeholder='Enter your email address' />
+                        <button type='button' className='absolute bottom-1 right-1 mt-2 rounded-full bg-blue-700 text-white px-4 py-3 text-center hover:bg-indigo-700'>Subscribe Now</button>
                     </div>
                 </div>
             </div>

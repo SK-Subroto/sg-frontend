@@ -25,9 +25,9 @@ const About = () => {
                 </div>
                 <div className='flex flex-col justify-center'>
                     <Flip left>
-                        <div className=' relative lg:mx-0 mx-auto'>
+                        <div className='relative lg:mx-0 mx-auto w-fit'>
                             <img className='object-cover lg:h-64 lg:w-64 h-72 w-72 rounded-xl' src={banner_img_2} alt="" />
-                            <img className='h-12 rounded-full border-2 border-gray-200 absolute -bottom-2 lg:right-20 -right-2' src={avatar} alt="" />
+                            <img className='h-12 rounded-full border-2 border-gray-200 absolute -bottom-2  -right-2' src={avatar} alt="" />
                         </div>
                     </Flip>
                 </div>

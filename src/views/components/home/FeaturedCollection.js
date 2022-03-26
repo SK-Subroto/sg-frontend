@@ -7,10 +7,16 @@ const FeaturedCollection = () => {
     return (
         <div className='mb-8 lg:mb-0 md:mx-auto'>
             <div className='flex md:flex-row flex-col lg:gap-4 md:gap-8'>
-                <img className='object-cover lg:h-80 lg:w-80 md:h-96 md:w-96 rounded-xl' src={banner_img_1} alt="" />
+                <div>
+                    <img className='object-cover lg:h-80 lg:w-80 md:h-96 md:w-96 rounded-xl' src={banner_img_1} alt="" />
+                </div>
                 <div className='flex md:flex-col justify-between lg:mx-auto mt-8 md:mt-0'>
                     {
-                        [1, 2, 3].map((img, idx) => <img key={idx} className='object-cover h-24 w-24 rounded-xl' src={img_3} alt="" />)
+                        [1, 2, 3].map((img, idx) => (
+                            <div key={idx}>
+                                <img className='object-cover h-24 w-24 rounded-xl' src={img_3} alt="" />
+                            </div>
+                        ))
                     }
 
                 </div>
